@@ -1,0 +1,21 @@
+_repo: Favorite-Dishes-a-Columbian-Autograph-Souvenir-Cookery-Book_6703
+creator:
+  author:
+    agent_name: Shuman, Carrie V.
+    gutenberg_agent_id: '2165'
+    url: http://www.gutenberg.org/2009/agents/2165
+description: ''
+gutenberg_bookshelf: Cookery
+gutenberg_issued: '2004-10-01'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '6703'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcc 'TX'
+- !lcsh 'Cooking, American'
+title: 'Favorite Dishes : a Columbian Autograph Souvenir Cookery Book'
+url: http://www.gutenberg.org/ebooks/6703
