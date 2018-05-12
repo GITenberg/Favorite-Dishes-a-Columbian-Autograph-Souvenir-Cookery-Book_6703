@@ -1,10 +1,16 @@
 _repo: Favorite-Dishes-a-Columbian-Autograph-Souvenir-Cookery-Book_6703
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
 creator:
   author:
     agent_name: Shuman, Carrie V.
     gutenberg_agent_id: '2165'
     url: http://www.gutenberg.org/2009/agents/2165
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/6703#Favorite-Dishes-a-Columbian-Autograph-Souvenir-Cookery-Book
 gutenberg_bookshelf: Cookery
 gutenberg_issued: '2004-10-01'
 gutenberg_type: Text
