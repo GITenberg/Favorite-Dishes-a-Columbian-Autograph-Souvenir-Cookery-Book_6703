@@ -1,193 +1,193 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:cc="http://web.resource.org/cc/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
 >
   <pgterms:ebook rdf:about="ebooks/6703">
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</pgterms:downloads>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N4272bd96eb0242f4a9e68879c1fa98f5">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6703.html.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">295333</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/6703"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">295333</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-04T01:31:40.051673</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N16454c228c3643b680336c43b1872089">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="Nd88a9ec8db9248ef805aa0fca076f3c9">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-04T02:39:21.112143</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:license rdf:resource="license"/>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6703.html.images">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6703.txt.utf-8">
         <dcterms:isFormatOf rdf:resource="ebooks/6703"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-04T01:31:39.704647</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne80f6028937246a092babeb57bf43bb3">
+          <rdf:Description rdf:nodeID="N67e091988f5447d8901538851b6f9093">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-04T02:39:20.964138</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">295333</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">254375</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6703.rdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10660</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5ffb4f7951b84c4584f26166e1ff5df6">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:05:07.966155</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/6703"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="Na8e1b33ad319486b9731a5f29636fdaa">
+        <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:title>Favorite Dishes : a Columbian Autograph Souvenir Cookery Book</dcterms:title>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6703.epub.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-04T01:31:40.213646</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">107554</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndea1ab4ea97f4fb39a49677ebf4d5fd9">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/6703"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6703.epub.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-04T01:31:40.335649</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">107554</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/6703"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N853ab726364d4ee88d68aefa7880cff3">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/6703/6703.txt">
-        <dcterms:isFormatOf rdf:resource="ebooks/6703"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf5efc7dbb6b84e4cafa2e5d8f12a6473">
+          <rdf:Description rdf:nodeID="N2e9a99d0b41a49cbb2b3c0ed43d32436">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">254333</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-07T14:46:36</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/6703"/>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/6703/6703.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/6703"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndb3e72a870f741648b437bdca7923c84">
+          <rdf:Description rdf:nodeID="Na0430f051720496e86f52534a7d73b5b">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N04d6f8dd750f4ec99fe7c59e8ce6c47f">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-07T14:47:00</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/6703"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N5e22585e2d004722be0564f7dc32d309">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84893</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-07T14:47:00</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</pgterms:downloads>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nef5284d92c1d4dff9b33a82fb38d5b3c">
+        <rdf:value>TX</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-10-01</dcterms:issued>
+    <dcterms:license rdf:resource="license"/>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6703.kindle.noimages">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-04T02:39:24.849984</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">465244</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6703.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">465242</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/6703"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-04T01:31:41.533622</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N0180ebcdc66b41138702c76160de5f87">
+          <rdf:Description rdf:nodeID="N9b58b97fd1f440668d79b66ea12cc948">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/6703"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:title>Favorite Dishes : a Columbian Autograph Souvenir Cookery Book</dcterms:title>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6703.epub.images">
-        <dcterms:isFormatOf rdf:resource="ebooks/6703"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">107553</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-04T02:39:21.548121</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfb60ca20c425450386df44ca25726376">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6703.epub.noimages">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N364f61ff967e41739521897855d117da">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/6703"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-04T02:39:21.826102</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">107552</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6703.txt.utf-8">
-        <dcterms:isFormatOf rdf:resource="ebooks/6703"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">254375</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N03dc279c040748248c810efa55f98741">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-04T02:39:20.090194</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N2635bf2b6cad46e6970fc3419c114249">
-        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
-        <rdf:value>Cookery</rdf:value>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N1c43e9ff1631453da0cea20a0f19812a">
+        <rdf:value>Cooking, American</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
-    </pgterms:bookshelf>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="Nbac88ff2380140e5893e890b2ed1099c">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-        <rdf:value>Text</rdf:value>
-      </rdf:Description>
-    </dcterms:type>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6703.html.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-04T01:31:39.992728</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">295333</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2aaa5612d31749e28911fabbd3929823">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/6703"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/2165">
         <pgterms:name>Shuman, Carrie V.</pgterms:name>
       </pgterms:agent>
     </dcterms:creator>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N20eb903c83f44efbbc0ef81cf43e61b9">
-        <rdf:value>TX</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Necd61f3517c444649c415daa60117325">
+        <rdf:value>Cookery</rdf:value>
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
       </rdf:Description>
-    </dcterms:subject>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N753094cc10ea47e29266333ea95888da">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
+    </pgterms:bookshelf>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6703.kindle.images">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">465253</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6703.kindle.noimages">
         <dcterms:isFormatOf rdf:resource="ebooks/6703"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">465234</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N224ee5fd4933409e9c019abc5598baab">
+          <rdf:Description rdf:nodeID="N9f1988e3f0b545939763efc46a33b694">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-04T02:39:23.315045</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-04T01:31:42.722601</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6703.rdf">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd2ed1d0446984603bab4b7c067a2556a">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-04T02:39:25.030970</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/6703"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10646</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N39481d1a3d3147da89c929637520fe37">
-        <rdf:value>Cooking, American</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-10-01</dcterms:issued>
   </pgterms:ebook>
   <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
     <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
             http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
   </cc:Work>
 </rdf:RDF>
